@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode9
+script:
+  - xcodebuild build -workspace DemoPCHError.xcworkspace -scheme DemoPCHError -sdk iphonesimulator -configuration Debug
